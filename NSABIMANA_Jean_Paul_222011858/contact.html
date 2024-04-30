@@ -1,0 +1,145 @@
+<html>
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Contact Address</title>
+  <style>
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: white;
+      background-color: pink;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: purple;
+    }
+    /* Unvisited link */
+    a:link {
+      color: brown; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: white;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: red;
+    }
+
+    
+    button.btn {
+      margin-left: 15px; 
+      margin-top: 4px;
+    }
+    
+    input.form-control {
+      margin-left: 1300px; 
+
+      padding: 8px;
+     
+    }
+    section{
+    padding:10px;
+    }
+  </style>
+  
+<header>
+   
+
+</head>
+
+<body bgcolor="skyblue">
+  <form class="d-flex" role="search" action="search.php">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+    <img src="./Images/car no 1.jpg" width="90" height="60" alt="Logo">
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./home.html">HOME</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html">ABOUT</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html">CONTACT</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./users.html">users</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./surveys.html">serveys</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./carmodels.html">carmodels</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./carmanufactures.html">Carmanufactures</a>
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./platformfeedback.html">platformfeedback</a>
+  </li>
+  
+    <li class="dropdown" style="display: inline; margin-right: 10px;">
+      <a href="#" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li><br><br>
+    
+    
+    
+  </ul>
+
+</header>
+<section>
+	<h2><bold><u> for more information contact us</u></bold></h2>
+<ul></ul>
+  <li>Address: 75 Main Street, MUsanze city, RWANDA</li>
+  <li>Phone: +250 782450133</li>
+  <li>Email: Carsur3@gmail.com</li>
+</ul>
+
+<form action="submit_contact" method="POST">
+  <label for="name">Names:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="phone">Telephone:</label><br>
+  <input type="tel" id="phone" name="phone"><br>
+
+  <label for="cname">carname:</label><br>
+  <input type="text" id="cname" name="cname"><br>
+
+
+  <label for="your opinion">your opinion:</label><br>
+  <textarea id="your opinion" name="your opinion" rows="4" required></textarea>
+
+  <input type="submit" value="send">
+</form>
+<p>Contact with us on social media:
+  <a href="https://www.twitter.com/carsurvey">Twitter</a>
+  <a href="https://www.facebook.com/carsurvey">Facebook</a>
+  <a href="https://www.instagram.com/carsurvey">Instagram</a>
+  <a href="https://www.linkedin.com/carsurvey">LinkedIn</a>
+  <a href="https://www.tik tok.com/carsurvey">tik tok</a>
+</p>
+</section>
+
+<footer>
+  <center> 
+    <b><h2>UR CBE BIT &copy, 2024 &reg; NSABIMANA Jean Paul</h2></b>
+  </center>
+</footer>
+
+</body>
+</html>
+
